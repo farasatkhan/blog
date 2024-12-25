@@ -117,11 +117,11 @@ theme = "hugo-blog-awesome"
 
 [[params.socialIcons]]
 name = "github"
-url = "https://github.com/hugo-sid"
+url = "https://github.com/farasatkhan"
 
 [[params.socialIcons]]
 name = "twitter"
-url = "https://twitter.com"
+url = "https://twitter.com/0x307"
 
 [[params.socialIcons]]
 name = "Rss"
