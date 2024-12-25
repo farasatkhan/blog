@@ -1,17 +1,3 @@
-### GitHub Configuration
-
-Configure Workflow Permissions:
-
-- Navigate to your repository's Settings
-- Select Actions → General
-- Under "Workflow permissions", enable "Read and write permissions"
-
-### Set Up GitHub Pages
-
-- Go to repository Settings
-- Navigate to Pages section
-- Under "Build and deployment", select "GitHub Actions" as your deployment source
-
 ### Hugo Blog:
 
 1. Install Hugo on your system:
@@ -41,6 +27,20 @@ theme = 'hugo-blog-awesome'
 ```
 
 6. Create a `build.yml` file in the directory `.github\workflows\` in order to set up a workflow for GitHub Actions. Copy and Paste the `build.yml` content from this repository.
+
+### GitHub Configuration
+
+Configure Workflow Permissions:
+
+- Navigate to your repository's Settings
+- Select Actions → General
+- Under "Workflow permissions", enable "Read and write permissions"
+
+### Set Up GitHub Pages
+
+- Go to repository Settings
+- Navigate to Pages section
+- Under "Build and deployment", select "GitHub Actions" as your deployment source
 
 Once configured, GitHub Actions will automatically build and deploy your site when you push changes to your repository. You can monitor the deployment status in the Actions tab of your repository.
 
