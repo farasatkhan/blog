@@ -26,6 +26,8 @@ git submodule add --depth=1 https://github.com/hugo-sid/hugo-blog-awesome.git th
 theme = 'hugo-blog-awesome'
 ```
 
+6. Create a `build.yml` file in the directory `.github\workflows\` in order to set up a workflow for GitHub Actions. Copy and Paste the `build.yml` content from this repository.
+
 ### GitHub Configuration
 
 Configure Workflow Permissions:
