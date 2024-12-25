@@ -40,7 +40,7 @@ Configure Workflow Permissions:
 - Navigate to Pages section
 - Under "Build and deployment", select "GitHub Actions" as your deployment source
 
-5. Once configured, GitHub Actions will automatically build and deploy your site when you push changes to your repository. You can monitor the deployment status in the Actions tab of your repository.
+Once configured, GitHub Actions will automatically build and deploy your site when you push changes to your repository. You can monitor the deployment status in the Actions tab of your repository.
 
 > [!TIP]
 > Note: You need PAT with workflows enabled.
